@@ -1,0 +1,14 @@
+body {
+    font-family: ubuntu;
+    font-size: 50px;
+   background-color: #2e2e2e;
+   color: #c708ce;
+}
+
+.return {
+    color: #d630ff;
+}
+
+.return:hover {
+    color:#00a8ff;
+}
