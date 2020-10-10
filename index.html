@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="index.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Webby API</title>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    <link id="theme" rel="stylesheet" href="./themes/index.css">
+    <link rel="icon" href="./icons/webby-transparent.png">
+  </head>
+  <body>
 
-<title>
-    reLib
-</title>
+<form class="box" action="../index.html">
+  <h1 class="err" style="text-align: center;"><strong><img src="../icons/webby-transparent.png" alt="Webby Logo" width="156px" height="156px"/></strong></h1>
+  <h1 class="sign-h1">Sign Up</h1>
+  <input type="file" placeholder="Profile Icon">
+  <input type="text" placeholder="Enter Username">
+  <input type="email" placeholder="Enter Email">
+  <input type="password" placeholder="Enter Password">
+  <div id="hCaptcha" class="h-captcha" data-sitekey="1810c84e-6e36-4141-91da-9d9383da2a40" data-theme="dark"></div>
+  <input type="submit" value="Sign up for Webby API Services">
+  <div id="google_translate_element"></div>
 
-<body>
-    <a class="nJS" href="./nodeJS.html">NodeJS Directory</a>
-</body>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</form>
+<script>
+</script>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://github.com/shottei/unitproject/blob/master/README.md">About</a>
+  <a href="https://github.com/shottei/unitproject/blob/master/services.md">Services</a>
+  <a href="https://discord.com/api/oauth2/authorize?client_id=751312169190031401&scope=bot&permissions=0">WebbyBot</a>
+  <a href="../index.html">Sign Up</a>
+
+
+
+<span style="font-size:25px;cursor:pointer;color: #e14bff;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  </body>
 </html>
